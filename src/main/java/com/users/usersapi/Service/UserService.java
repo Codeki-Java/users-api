@@ -1,4 +1,4 @@
-package com.users.usersapi.service;
+package com.users.usersapi.Service;
 
 import com.users.usersapi.Model.User;
 import com.users.usersapi.Repository.UserRepository;

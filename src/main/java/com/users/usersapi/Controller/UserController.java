@@ -1,7 +1,7 @@
 package com.users.usersapi.Controller;
 
 import com.users.usersapi.Model.User;
-import com.users.usersapi.service.UserService;
+import com.users.usersapi.Service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
