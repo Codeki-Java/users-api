@@ -19,6 +19,11 @@ public class UserController {
         return userService.traerTodosLosUsuarios();
     }
 
+    @GetMapping("/{id}")
+    public User getUserById(@PathVariable Long id){
+        return userService.traerUsuarioPorId(id);
+    }
+
     @PostMapping("/add")
     public void createUser(@RequestBody User user){
         userService.agregarUsuario(user);
